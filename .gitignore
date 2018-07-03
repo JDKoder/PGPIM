@@ -22,10 +22,18 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 
-# gradle files
-*.lock
-*/.gradle/buildOutputCleanup/*
-*/.gradle/*/taskHistory/*
+# From https://github.com/github/gitignore/blob/master/Gradle.gitignore
+.gradle
+build
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+
+# Cache of project
+.gradletasknamecache
 
 #Mac directories
 .DS_Store
