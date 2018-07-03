@@ -37,3 +37,6 @@ gradle-app.setting
 
 #Mac directories
 .DS_Store
+
+#Intellij
+.idea
